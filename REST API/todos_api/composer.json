@@ -1,0 +1,19 @@
+{
+    "name": "rasyidcode/todos_api",
+    "description": "Simple todo rest api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rasyidcode",
+            "email": "rasyidcode7@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
